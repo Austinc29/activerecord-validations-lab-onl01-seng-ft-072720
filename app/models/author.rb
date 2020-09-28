@@ -1,3 +1,3 @@
 class Author < ActiveRecord::Base
-  validates n
+  validates :name, presence:
 end
